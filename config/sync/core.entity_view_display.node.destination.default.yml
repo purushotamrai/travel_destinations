@@ -1,0 +1,28 @@
+uuid: 15fd1bdf-9f06-4f3b-a339-787158e580e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.destination.body
+    - node.type.destination
+  module:
+    - text
+    - user
+id: node.destination.default
+targetEntityType: node
+bundle: destination
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
